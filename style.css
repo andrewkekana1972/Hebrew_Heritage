@@ -1,65 +1,183 @@
 body{
 
-background:#faf7f2;
+    margin:0;
 
-font-family:Georgia,serif;
+    background:#f8f3ea;
 
-line-height:1.8;
+    color:#2d2d2d;
 
-color:#333;
-
-margin:0;
+    font-family:'Cormorant Garamond',serif;
 
 }
 
-.container{
+.hero{
 
-max-width:900px;
+    min-height:100vh;
 
-margin:auto;
+    display:flex;
 
-padding:50px;
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    background:
+
+        linear-gradient(rgba(248,243,234,.92),
+
+        rgba(248,243,234,.95)),
+
+        url("https://upload.wikimedia.org/wikipedia/commons/8/86/Africa_%28orthographic_projection%29.svg");
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size:55%;
+
+}
+
+.overlay{
+
+    width:80%;
+
+    max-width:900px;
+
+}
+
+.aleph{
+
+    font-size:90px;
+
+    color:#7a5a2e;
+
+    margin-bottom:20px;
 
 }
 
 h1{
 
-color:#7A4A12;
+    font-family:'Cinzel',serif;
 
-font-size:48px;
+    font-size:54px;
+
+    letter-spacing:4px;
+
+    margin:0;
 
 }
 
-h2{
+.tagline{
 
-color:#A06020;
+    font-size:34px;
 
-margin-top:40px;
+    color:#8a5b2b;
+
+    font-style:italic;
+
+    margin-top:15px;
+
+}
+
+.subtitle{
+
+    font-size:26px;
+
+    max-width:700px;
+
+    margin:40px auto;
+
+}
+
+.buttons{
+
+    margin-top:50px;
 
 }
 
 .button{
 
-display:inline-block;
+    display:inline-block;
 
-margin:20px 20px 20px 0;
+    margin:12px;
 
-padding:15px 30px;
+    padding:16px 34px;
 
-background:#B36A1E;
+    border-radius:10px;
 
-color:white;
+    text-decoration:none;
 
-text-decoration:none;
+    font-size:22px;
 
-border-radius:10px;
-
-font-weight:bold;
+    transition:.3s;
 
 }
 
-.button:hover{
+.primary{
 
-background:#8F5416;
+    background:#8a5b2b;
+
+    color:white;
+
+}
+
+.primary:hover{
+
+    background:#6d431a;
+
+}
+
+.secondary{
+
+    border:2px solid #8a5b2b;
+
+    color:#8a5b2b;
+
+}
+
+.secondary:hover{
+
+    background:#8a5b2b;
+
+    color:white;
+
+}
+
+.mission{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:90px 40px;
+
+}
+
+.mission h2{
+
+    font-family:'Cinzel',serif;
+
+    color:#5b4323;
+
+    font-size:40px;
+
+}
+
+.mission p{
+
+    font-size:28px;
+
+    line-height:1.8;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#777;
 
 }
