@@ -181,3 +181,114 @@ footer{
     color:#777;
 
 }
+/* -------------------------------------------------- */
+/* HERITAGE MANUSCRIPT                                */
+/* -------------------------------------------------- */
+
+.manuscript{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:80px 40px;
+
+}
+
+.chapter-cover{
+
+    text-align:center;
+
+    margin-bottom:140px;
+
+}
+
+.chapter-cover .aleph{
+
+    font-size:80px;
+
+    color:#7a5a2e;
+
+}
+
+.chapter-cover h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:52px;
+
+    letter-spacing:4px;
+
+    margin-top:20px;
+
+}
+
+.chapter-subtitle{
+
+    font-style:italic;
+
+    color:#7a5a2e;
+
+    font-size:28px;
+
+    margin-top:30px;
+
+}
+
+.chapter-cover h2{
+
+    font-family:'Cinzel',serif;
+
+    font-size:42px;
+
+    margin-top:60px;
+
+    line-height:1.4;
+
+    color:#5b4323;
+
+}
+
+.chapter{
+
+    font-size:31px;
+
+    line-height:1.9;
+
+    margin-bottom:120px;
+
+}
+
+.chapter p{
+
+    margin-bottom:42px;
+
+}
+
+.quotation{
+
+    text-align:center;
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-style:italic;
+
+    font-size:46px;
+
+    color:#7a5a2e;
+
+    margin:170px auto;
+
+    line-height:1.4;
+
+}
+
+.final{
+
+    font-size:60px;
+
+    margin-top:220px;
+
+    margin-bottom:180px;
+
+}
